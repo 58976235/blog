@@ -1,0 +1,4 @@
+.page-enter-active,
+.page-leave-active {
+  transition:  0.5s;
+}
