@@ -1,12 +1,4 @@
-<!--
- * @Author: your name
- * @Date: 2021-06-07 11:08:22
- * @LastEditTime: 2021-06-07 11:09:54
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \blog\README.md
--->
-# myblog
+<h1 style='background:red'>my blog</h1>
 
 ## Build Setup
 [查](http://www.baidu.com)
