@@ -1,0 +1,86 @@
+[
+  {
+    "name": "collection",
+    "path": "/collection",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\collection\\\\index.vue",
+    "chunkName": "pages/collection/index",
+    "_name": "_20e44a9e"
+  },
+  {
+    "name": "index",
+    "path": "/index",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\index\\\\index.vue",
+    "chunkName": "pages/index/index",
+    "_name": "_35567293"
+  },
+  {
+    "name": "interview",
+    "path": "/interview",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\interview\\\\index.vue",
+    "chunkName": "pages/interview/index",
+    "_name": "_44898104"
+  },
+  {
+    "name": "moodQuotes",
+    "path": "/moodQuotes",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\moodQuotes\\\\index.vue",
+    "chunkName": "pages/moodQuotes/index",
+    "_name": "_098c5801"
+  },
+  {
+    "name": "notes",
+    "path": "/notes",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\notes\\\\index.vue",
+    "chunkName": "pages/notes/index",
+    "_name": "_2320dd78"
+  },
+  {
+    "name": "notes-css",
+    "path": "/notes/css",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\notes\\\\css\\\\index.vue",
+    "chunkName": "pages/notes/css/index",
+    "_name": "_22fa0326"
+  },
+  {
+    "name": "notes-html",
+    "path": "/notes/html",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\notes\\\\html\\\\index.vue",
+    "chunkName": "pages/notes/html/index",
+    "_name": "_4d330c8e"
+  },
+  {
+    "name": "notes-javaScript",
+    "path": "/notes/javaScript",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\notes\\\\javaScript\\\\index.vue",
+    "chunkName": "pages/notes/javaScript/index",
+    "_name": "_3855a1d2"
+  },
+  {
+    "name": "notes-react",
+    "path": "/notes/react",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\notes\\\\react\\\\index.vue",
+    "chunkName": "pages/notes/react/index",
+    "_name": "_0f419ff1"
+  },
+  {
+    "name": "notes-typeScript",
+    "path": "/notes/typeScript",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\notes\\\\typeScript\\\\index.vue",
+    "chunkName": "pages/notes/typeScript/index",
+    "_name": "_59441cff"
+  },
+  {
+    "name": "notes-vue",
+    "path": "/notes/vue",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\notes\\\\vue\\\\index.vue",
+    "chunkName": "pages/notes/vue/index",
+    "_name": "_2347f70a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "redirect": "/index",
+    "component": "C:\\\\Users\\\\Administrator.WIN-3AJHE5QS6L6\\\\Desktop\\\\blog\\\\pages\\\\index\\\\index.vue",
+    "_name": "_35567293"
+  }
+]
