@@ -733,16 +733,11 @@ getRole=(req,res)=>{
 getBlogInfo=(req,res)=>{
   let Sql = "select * from user where id=1";
   let SqlArr = [];
-  let CallBack = (err, data) => {
-      if (err) {
-          let nowTime = parseTime.gettime()
-          log_out.print("./error.log", nowTime + " : " + err)
-      } else {
-          res.send({
-            code:200,
-            data:data[0]
-          })
-      }
+  let CallBack = (data) => {
+    res.send({
+      code:200,
+      data:data[0]
+    })
   }
   dbconfig.sqlConnect(Sql, SqlArr, CallBack);
 }
@@ -758,21 +753,16 @@ getTodayLoginsNumbe = (req, res) => {
     let table = config.tableName + monthDay
     let Sql = `SELECT COUNT(openid) as num FROM ${table}`;
     let SqlArr = [];
-    let CallBack = (err, data) => {
-        if (err) {
-            let nowTime = parseTime.gettime()
-            log_out.print("./error.log",nowTime + " : " + err)
-        } else {
-            let nowTime = parseTime.gettime()
-            log_out.print("./info.log",nowTime + " 请求成功 "+JSON.stringify(data[0].num))
-            res.send({
-                code: 20000,
-                data: {
-                    msgCode: 1,
-                    msg: data[0].num
-                }
-            })
-        }
+    let CallBack = (data) => {
+      let nowTime = parseTime.gettime()
+      log_out.print("./info.log",nowTime + " 请求成功 "+JSON.stringify(data[0].num))
+      res.send({
+          code: 20000,
+          data: {
+              msgCode: 1,
+              msg: data[0].num
+          }
+      })
     }
     daconfig_analysis.sqlConnect(Sql, SqlArr, CallBack);
 }
