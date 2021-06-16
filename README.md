@@ -1,7 +1,7 @@
-# myblog
+<h1 style='background:red'>my blog</h1>
 
 ## Build Setup
-
+[查](http://www.baidu.com)
 ```bash
 # install dependencies
 $ npm install

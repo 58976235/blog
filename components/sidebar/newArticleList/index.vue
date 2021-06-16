@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-01 20:46:15
- * @LastEditTime: 2021-06-05 16:59:02
+ * @LastEditTime: 2021-06-07 14:34:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\sidebar\newArticleList\index.vue
@@ -23,7 +23,7 @@
           <div class="article-content-behavior">
             <a-statistic :value="article.look">
               <template #prefix>
-                <a-icon type="like" />
+                <a-icon type="clock-circle" />
               </template>
             </a-statistic>
             <a-statistic :value="article.comment" style="margin-left: 16px">
