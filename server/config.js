@@ -28,7 +28,7 @@ var config = {
         host: 'localhost',  //192.168.0.221
         port: '3306',
         user: 'root',
-        password: "123456",  //root
+        password: "LUOHAN1996",  //root
         database: "blog"
     },
     //监听端口

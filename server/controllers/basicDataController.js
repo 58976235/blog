@@ -731,7 +731,7 @@ getRole=(req,res)=>{
      res.send(results)
 }
 getBlogInfo=(req,res)=>{
-  let Sql = "select * from blog_admin where id=1";
+  let Sql = "select * from user where id=1";
   let SqlArr = [];
   let CallBack = (err, data) => {
       if (err) {

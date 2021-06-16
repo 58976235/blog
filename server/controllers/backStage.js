@@ -11,7 +11,7 @@ const md5 = require('md5')
 
 /* 登录 */
 login = (req, res) => {
-    let getNameSqle = "select * from blog_admin where userName=?";
+    let getNameSqle = "select * from user where userName=?";
     let getNameSqlArr = [req.body.username];
     let getNameCallBack = (err, data) => {
         if (err) {

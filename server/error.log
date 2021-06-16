@@ -6182,3 +6182,11 @@
 2021-05-19 21:14:05 : Error: Too many connections
 2021-05-20 10:19:56 : Error: connect EHOSTUNREACH 192.168.0.252:3306
 2021-05-20 10:19:56 : Error: connect EHOSTUNREACH 192.168.0.252:3306
+2021-06-05 23:45:31 : Error: Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-05 23:45:51 : Error: Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-05 23:46:15 : Error: Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-05 23:46:35 : Error: Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-05 23:47:31 : Error: Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-05 23:47:51 : Error: Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-05 23:48:18 : Error: Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-05 23:48:38 : Error: Access denied for user 'root'@'localhost' (using password: YES)
