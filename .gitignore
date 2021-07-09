@@ -1,3 +1,4 @@
 node_modules
+.nuxt
 server/error.log
 server/info.log
