@@ -2,6 +2,15 @@
   "BackTop": {
     "description": "Auto imported from components/backTop/index.vue"
   },
+  "Footer": {
+    "description": "Auto imported from components/footer/index.vue"
+  },
+  "MainList": {
+    "description": "Auto imported from components/mainList/index.vue"
+  },
+  "Pagination": {
+    "description": "Auto imported from components/pagination/index.vue"
+  },
   "Banner": {
     "description": "Auto imported from components/banner/index.vue"
   },
@@ -10,15 +19,6 @@
   },
   "Header": {
     "description": "Auto imported from components/header/index.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/footer/index.vue"
-  },
-  "Pagination": {
-    "description": "Auto imported from components/pagination/index.vue"
-  },
-  "MainList": {
-    "description": "Auto imported from components/mainList/index.vue"
   },
   "Sidebar": {
     "description": "Auto imported from components/sidebar/index.vue"
@@ -32,10 +32,10 @@
   "SidebarCommentList": {
     "description": "Auto imported from components/sidebar/commentList/index.vue"
   },
-  "SidebarNewArticleList": {
-    "description": "Auto imported from components/sidebar/newArticleList/index.vue"
-  },
   "SidebarLinkList": {
     "description": "Auto imported from components/sidebar/linkList/index.vue"
+  },
+  "SidebarNewArticleList": {
+    "description": "Auto imported from components/sidebar/newArticleList/index.vue"
   }
 }
