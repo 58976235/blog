@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-02 10:52:32
- * @LastEditTime: 2021-06-04 14:12:37
+ * @LastEditTime: 2021-07-09 09:41:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\server\routes\index.js
@@ -17,5 +17,6 @@ router.get('/getComment', basicData.getComment);
 router.get('/getNawArticle', basicData.getNawArticle);
 router.get('/role', basicData.getRole);
 router.get('/getBlogInfo', basicData.getBlogInfo);
+router.get('/getArticle', basicData.getArticle);
 
 module.exports = router;
