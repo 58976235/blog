@@ -1,10 +1,10 @@
 <!--
  * @Author: your name
- * @Date: 2021-05-25 15:34:03
- * @LastEditTime: 2021-06-05 17:43:10
+ * @Date: 2021-07-08 17:24:43
+ * @LastEditTime: 2021-07-12 08:54:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \myblog\pages\index.vue
+ * @FilePath: /blog/pages/index/index.vue
 -->
 <template>
   <div class="index-box">
