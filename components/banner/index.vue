@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-28 10:33:45
- * @LastEditTime: 2021-05-28 16:47:51
+ * @LastEditTime: 2021-07-12 09:20:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\banner\index.vue
@@ -32,14 +32,14 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang='scss'>
 /* For demo */
-.ant-carousel >>> .slick-slide {
+::v-deep .ant-carousel .slick-slide {
   text-align: center;
   background: #364d79;
   overflow: hidden;
 }
-.ant-carousel >>> .slick-slide h3 {
+::v-deep .ant-carousel .slick-slide h3 {
   color: #fff;
 }
 </style>

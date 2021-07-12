@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-31 10:31:29
- * @LastEditTime: 2021-06-05 17:29:52
+ * @LastEditTime: 2021-07-12 09:21:55
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\mainList\index.vue
@@ -68,8 +68,8 @@ export default {
   },
 };
 </script>
-<style>
-.skeleton-demo {
+<style scoped lang='scss'>
+::v-deep .skeleton-demo {
   border: 1px solid #f4f4f4;
 }
 </style>

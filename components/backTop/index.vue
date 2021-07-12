@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-28 14:42:32
- * @LastEditTime: 2021-06-05 19:52:53
+ * @LastEditTime: 2021-07-12 09:23:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\backTop\index.vue
@@ -38,15 +38,10 @@ export default {
   text-align: center;
   font-size: 20px;
   -webkit-touch-callout: none; /* iOS Safari */
-
   -webkit-user-select: none; /* Chrome/Safari/Opera */
-
   -khtml-user-select: none; /* Konqueror */
-
   -moz-user-select: none; /* Firefox */
-
   -ms-user-select: none; /* Internet Explorer/Edge */
-
   user-select: none;
 }
 </style>
