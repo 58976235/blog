@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-25 15:34:03
- * @LastEditTime: 2021-05-31 17:24:42
+ * @LastEditTime: 2021-10-09 14:25:55
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\nuxt.config.js
@@ -10,14 +10,15 @@ export default {
   components: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'myblog',
+    title: '洛寒前端博客',
     htmlAttrs: {
       lang: 'zh-cn'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '一个博客' }
+      { hid: 'description', name: 'description', content: '洛寒博客' },
+      { hid: 'description', name: 'description', content: '洛寒前端博客' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

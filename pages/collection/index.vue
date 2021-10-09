@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-25 15:34:03
- * @LastEditTime: 2021-06-05 18:30:19
+ * @LastEditTime: 2021-09-06 13:48:48
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\pages\index.vue
@@ -177,7 +177,23 @@ export default {
   flex-wrap: wrap;
   .card {
     width: 31%;
-    margin: 1%;
+    margin: 2% 1%;
+  }
+}
+@media screen  and (max-width:580px){
+  .collection-box {
+    .card {
+      width: 48%;
+      margin: 2% 1%;
+    }
+  }
+}
+@media screen  and (max-width:360px){
+  .collection-box {
+    .card {
+      width: 98%;
+      margin: 2% 1%;
+    }
   }
 }
 </style>

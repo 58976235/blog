@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-25 15:34:03
- * @LastEditTime: 2021-06-05 17:24:33
+ * @LastEditTime: 2021-10-09 16:59:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\pages\index.vue
@@ -31,7 +31,6 @@ export default {
     this.$store.commit('CLOSE_SPINNING')
   },
   destroyed(){
-    console.log('vvv');
   },
   components: {
     MainList,

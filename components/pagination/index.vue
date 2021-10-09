@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-31 10:47:02
- * @LastEditTime: 2021-06-01 10:19:05
+ * @LastEditTime: 2021-10-09 17:10:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\pagination\index.vue
@@ -29,16 +29,21 @@ export default {
       pageSizeOptions: ['10', '20', '30'],
       current: 1,
       pageSize: 10,
-      total: 33,
     };
+  },
+  props:{
+    total:{
+      type:Number,
+      default:0
+    }
   },
   methods: {
     onShowSizeChange(current, pageSize) {
       this.pageSize = pageSize;
-      console.log(current, pageSize);
+      this.$emit('pagechange',{page:current,pageSize})
     },
     paginChange(page,pageSize){
-      console.log(page,pageSize);
+      this.$emit('pagechange',{page,pageSize})
     }
   },
 };

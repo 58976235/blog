@@ -150,4 +150,7 @@ export default {
     transform: translateY(0);
   }
 }
+@media screen and (max-width:750px) {
+  
+}
 </style>

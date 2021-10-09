@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-01 20:46:15
- * @LastEditTime: 2021-07-12 09:20:54
+ * @LastEditTime: 2021-10-09 16:59:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\sidebar\newArticleList\index.vue
@@ -12,18 +12,18 @@
       <div class="article-box">
         <div class="article-img-box">
           <img
-            :src="article.img"
+            :src="article.imgPath"
             alt="一张图片"
             class="article-img"
           />
           <span>{{article.tag}}</span>
         </div>
         <div class="article-content-box">
-          <p class="article-content">{{article.content}}</p>
+          <p class="article-content" v-html='article.content'>{{article.content}}</p>
           <div class="article-content-behavior">
             <a-statistic :value="article.look">
               <template #prefix>
-                <a-icon type="clock-circle" />
+                <a-icon type="eye" />
               </template>
             </a-statistic>
             <a-statistic :value="article.comment" style="margin-left: 16px">

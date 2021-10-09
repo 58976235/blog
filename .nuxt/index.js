@@ -13,8 +13,8 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_60a5e783 from 'nuxt_plugin_plugin_60a5e783' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_axios_4c4601ce from 'nuxt_plugin_axios_4c4601ce' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_plugin_92be4ec2 from 'nuxt_plugin_plugin_92be4ec2' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_axios_e6788b96 from 'nuxt_plugin_axios_e6788b96' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_antdui_2b2dca90 from 'nuxt_plugin_antdui_2b2dca90' // Source: ../plugins/antd-ui (mode: 'all')
 import nuxt_plugin_route_338f5eda from 'nuxt_plugin_route_338f5eda' // Source: ../plugins/route (mode: 'all')
 import nuxt_plugin_axios_3566aa80 from 'nuxt_plugin_axios_3566aa80' // Source: ../plugins/axios (mode: 'all')
@@ -85,7 +85,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"myblog","htmlAttrs":{"lang":"zh-cn"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"一个博客"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"\u002Fjs\u002Fflexible.js","type":"text\u002Fjavascript","charset":"utf-8"}],"style":[]},
+    head: {"title":"洛寒前端博客","htmlAttrs":{"lang":"zh-cn"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"洛寒博客"},{"hid":"description","name":"description","content":"洛寒前端博客"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"\u002Fjs\u002Fflexible.js","type":"text\u002Fjavascript","charset":"utf-8"}],"style":[]},
 
     store,
     router,
@@ -214,12 +214,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_60a5e783 === 'function') {
-    await nuxt_plugin_plugin_60a5e783(app.context, inject)
+  if (typeof nuxt_plugin_plugin_92be4ec2 === 'function') {
+    await nuxt_plugin_plugin_92be4ec2(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_4c4601ce === 'function') {
-    await nuxt_plugin_axios_4c4601ce(app.context, inject)
+  if (typeof nuxt_plugin_axios_e6788b96 === 'function') {
+    await nuxt_plugin_axios_e6788b96(app.context, inject)
   }
 
   if (typeof nuxt_plugin_antdui_2b2dca90 === 'function') {

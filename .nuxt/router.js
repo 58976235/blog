@@ -4,17 +4,17 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _60fcebde = () => interopDefault(import('../pages/collection/index.vue' /* webpackChunkName: "pages/collection/index" */))
-const _017ebaa8 = () => interopDefault(import('../pages/index/index.vue' /* webpackChunkName: "pages/index/index" */))
-const _ba1101d2 = () => interopDefault(import('../pages/interview/index.vue' /* webpackChunkName: "pages/interview/index" */))
-const _5991848e = () => interopDefault(import('../pages/moodQuotes/index.vue' /* webpackChunkName: "pages/moodQuotes/index" */))
-const _b742fc52 = () => interopDefault(import('../pages/notes/index.vue' /* webpackChunkName: "pages/notes/index" */))
-const _bb703b6a = () => interopDefault(import('../pages/notes/css/index.vue' /* webpackChunkName: "pages/notes/css/index" */))
-const _6b5a5c8e = () => interopDefault(import('../pages/notes/html/index.vue' /* webpackChunkName: "pages/notes/html/index" */))
-const _55468adb = () => interopDefault(import('../pages/notes/javaScript/index.vue' /* webpackChunkName: "pages/notes/javaScript/index" */))
-const _1764f0f2 = () => interopDefault(import('../pages/notes/react/index.vue' /* webpackChunkName: "pages/notes/react/index" */))
-const _50ce3ff3 = () => interopDefault(import('../pages/notes/typeScript/index.vue' /* webpackChunkName: "pages/notes/typeScript/index" */))
-const _40e2e20e = () => interopDefault(import('../pages/notes/vue/index.vue' /* webpackChunkName: "pages/notes/vue/index" */))
+const _9210460c = () => interopDefault(import('../pages/collection/index.vue' /* webpackChunkName: "pages/collection/index" */))
+const _3840880c = () => interopDefault(import('../pages/index/index.vue' /* webpackChunkName: "pages/index/index" */))
+const _40e80b0a = () => interopDefault(import('../pages/interview/index.vue' /* webpackChunkName: "pages/interview/index" */))
+const _a0e714ac = () => interopDefault(import('../pages/moodQuotes/index.vue' /* webpackChunkName: "pages/moodQuotes/index" */))
+const _49bf618a = () => interopDefault(import('../pages/notes/index.vue' /* webpackChunkName: "pages/notes/index" */))
+const _424744a2 = () => interopDefault(import('../pages/notes/css/index.vue' /* webpackChunkName: "pages/notes/css/index" */))
+const _204dc2d5 = () => interopDefault(import('../pages/notes/html/index.vue' /* webpackChunkName: "pages/notes/html/index" */))
+const _4eb736f7 = () => interopDefault(import('../pages/notes/javaScript/index.vue' /* webpackChunkName: "pages/notes/javaScript/index" */))
+const _5db0b9eb = () => interopDefault(import('../pages/notes/react/index.vue' /* webpackChunkName: "pages/notes/react/index" */))
+const _4a3eec0f = () => interopDefault(import('../pages/notes/typeScript/index.vue' /* webpackChunkName: "pages/notes/typeScript/index" */))
+const _7d775d72 = () => interopDefault(import('../pages/notes/vue/index.vue' /* webpackChunkName: "pages/notes/vue/index" */))
 
 const emptyFn = () => {}
 
@@ -29,51 +29,51 @@ export const routerOptions = {
 
   routes: [{
     path: "/collection",
-    component: _60fcebde,
+    component: _9210460c,
     name: "collection"
   }, {
     path: "/index",
-    component: _017ebaa8,
+    component: _3840880c,
     name: "index"
   }, {
     path: "/interview",
-    component: _ba1101d2,
+    component: _40e80b0a,
     name: "interview"
   }, {
     path: "/moodQuotes",
-    component: _5991848e,
+    component: _a0e714ac,
     name: "moodQuotes"
   }, {
     path: "/notes",
-    component: _b742fc52,
+    component: _49bf618a,
     name: "notes"
   }, {
     path: "/notes/css",
-    component: _bb703b6a,
+    component: _424744a2,
     name: "notes-css"
   }, {
     path: "/notes/html",
-    component: _6b5a5c8e,
+    component: _204dc2d5,
     name: "notes-html"
   }, {
     path: "/notes/javaScript",
-    component: _55468adb,
+    component: _4eb736f7,
     name: "notes-javaScript"
   }, {
     path: "/notes/react",
-    component: _1764f0f2,
+    component: _5db0b9eb,
     name: "notes-react"
   }, {
     path: "/notes/typeScript",
-    component: _50ce3ff3,
+    component: _4a3eec0f,
     name: "notes-typeScript"
   }, {
     path: "/notes/vue",
-    component: _40e2e20e,
+    component: _7d775d72,
     name: "notes-vue"
   }, {
     path: "/",
-    component: _017ebaa8,
+    component: _3840880c,
     redirect: "/index",
     name: "index"
   }],
