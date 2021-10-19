@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-07-08 17:24:43
+ * @LastEditTime: 2021-10-19 09:35:15
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /blog/components/header/index.vue
+-->
 <template>
   <div class="header">
     <a-row type="flex" justify="space-between" align="middle" :gutter="[8, 0]">
@@ -45,7 +53,7 @@ export default {
   },
   methods: {
     onSearch(value) {
-      console.log(value);
+      
     },
     menuActive(){
       this.$emit('menuActive')

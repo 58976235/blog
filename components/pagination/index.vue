@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-31 10:47:02
- * @LastEditTime: 2021-10-09 17:10:42
+ * @LastEditTime: 2021-10-19 11:42:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\pagination\index.vue
@@ -15,6 +15,7 @@
     :page-size="pageSize"
     @showSizeChange="onShowSizeChange"
     @change="paginChange"
+    class="page-box"
   >
     <template slot="buildOptionText" slot-scope="props">
       <span v-if="props.value !== '50'">{{ props.value }}条/页</span>
@@ -48,3 +49,9 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.page-box{
+  display: flex;
+  justify-content: center;
+}
+</style>

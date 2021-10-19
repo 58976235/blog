@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-08 17:24:43
- * @LastEditTime: 2021-10-09 17:15:55
+ * @LastEditTime: 2021-10-19 09:41:23
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /blog/pages/index/index.vue
@@ -47,7 +47,7 @@ export default {
     }
   },
   destroyed(){
-    console.log('aaa');
+    
   },
   components: {
     Banner,

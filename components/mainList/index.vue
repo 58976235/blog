@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-31 10:31:29
- * @LastEditTime: 2021-10-09 17:16:56
+ * @LastEditTime: 2021-10-19 11:47:05
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\mainList\index.vue
@@ -9,7 +9,7 @@
 <template>
   <div>
     <a-list item-layout="vertical" size="large" :data-source="listData">
-      <a-list-item slot="renderItem" key="item.title" slot-scope="item">
+      <a-list-item slot="renderItem" key="item.title" class="hover" slot-scope="item"  @click="skipDetail(item.articleId)">
         <img
           v-if="!loading"
           slot="extra"
@@ -19,14 +19,14 @@
         />
         <a-skeleton :loading="loading" active avatar>
           <a-list-item-meta :description="item.tag">
-            <a slot="title" :href="item.href">{{ item.title }}</a>
+            <a slot="title" href="javascript:;">{{ item.title }}</a>
             <a-avatar slot="avatar" :src="photo" />
           </a-list-item-meta>
           <p v-html="item.content" class="text">{{ item.content }}</p>
         </a-skeleton>
         <div v-if="!loading">
-          <span>
-            <a-icon type="eye" style="font-size:18px;margin-right: 8px" />
+          <span style="margin-right: 8px">
+            <a-icon type="eye" style="font-size:16px;" />
             {{ item.look }}
           </span>
           <span>
@@ -59,6 +59,9 @@ export default {
     onChange(checked) {
       this.loading = !checked;
     },
+    skipDetail(id){
+      this.$router.push(`/detail?articleId=${id}`);
+    }
   },
   watch:{
     articlList:{
@@ -74,6 +77,9 @@ export default {
 <style scoped lang='scss'>
 ::v-deep .skeleton-demo {
   border: 1px solid #f4f4f4;
+}
+.hover:hover{
+  cursor: pointer;
 }
 .text{
   display: -webkit-box;

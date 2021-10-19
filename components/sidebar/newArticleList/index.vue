@@ -1,14 +1,14 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-01 20:46:15
- * @LastEditTime: 2021-10-09 16:59:00
+ * @LastEditTime: 2021-10-19 11:36:01
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\sidebar\newArticleList\index.vue
 -->
 <template>
   <div>
-    <article class="article" v-for="article in NawArticle" :key="article.key">
+    <article class="article" v-for="article in NawArticle" :key="article.key" @click="detail(article.articleId)">
       <div class="article-box">
         <div class="article-img-box">
           <img
@@ -55,6 +55,9 @@ export default {
     };
   },
   methods: {
+    detail(id){
+      this.$router.push(`/detail?articleId=${id}`);
+    },
     getNawArticle() {
       this.$axios.get("/getNawArticle").then((res) => {
         this.loading=false

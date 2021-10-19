@@ -2,6 +2,9 @@
   "BackTop": {
     "description": "Auto imported from components/backTop/index.vue"
   },
+  "Banner": {
+    "description": "Auto imported from components/banner/index.vue"
+  },
   "HeaderConfig": {
     "description": "Auto imported from components/header/config.js"
   },
@@ -11,12 +14,6 @@
   "MainList": {
     "description": "Auto imported from components/mainList/index.vue"
   },
-  "Banner": {
-    "description": "Auto imported from components/banner/index.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/footer/index.vue"
-  },
   "Pagination": {
     "description": "Auto imported from components/pagination/index.vue"
   },
@@ -25,6 +22,9 @@
   },
   "Sider": {
     "description": "Auto imported from components/sider/index.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/footer/index.vue"
   },
   "HeaderTopNav": {
     "description": "Auto imported from components/header/topNav/index.vue"

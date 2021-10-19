@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-28 14:03:47
- * @LastEditTime: 2021-06-05 19:52:25
+ * @LastEditTime: 2021-10-14 11:34:44
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myblog\components\footer\index.vue
@@ -10,7 +10,7 @@
   <footer>
     <p class="footer">
       Copyright &copy; <span>{{ eTitle }}</span> Blog All Rights Reserved.
-      <span>{{ ICP }}</span>
+      <a href="https://beian.miit.gov.cn">{{ ICP }}</a>
     </p>
   </footer>
 </template>
